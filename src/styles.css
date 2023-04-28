@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(39, 1, 1);
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+
+#taglines p {
+    margin: 32px;
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+#taglines p:last-of-type {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#home-tabs ul {
+    list-style: none;
+    display: flex;
+    margin: 60px auto 100px;
+    padding-left: 0;
+    max-width: 1000px;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+#home-tabs button {
+    appearance: none;
+    transition: ease-in-out 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    font-size: 1.5rem;
+    padding: 12px;
+    width: 250px;
+}
+
+#home-tabs button:hover {
+    appearance: none;
+    background-color: aliceblue;
+    color: rgb(39, 1, 1);
+    font-weight: bold;
+    border: 3px solid aliceblue;
+    outline: 3px solid aliceblue;
+    outline-offset: 3px;
+}
+
+#home-tabs li:nth-of-type(2) {
+    transform: translateY(35px);
+}

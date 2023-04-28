@@ -1,6 +1,7 @@
 import homeTab from "./home.js";
 import menuTab from "./menu.js";
 import contactTab from "./contact.js";
+import "./styles.css";
 
 function test() {
   console.log("testing");
