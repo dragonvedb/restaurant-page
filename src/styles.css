@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    background: rgb(39, 1, 1) url("./Dark\ Stained\ Timber\ Cubic\ 3464\ x\ 4500\ mm.jpg");
+    background: rgb(39, 1, 1) url("images/Dark\ Stained\ Timber\ Cubic\ 3464\ x\ 4500\ mm.jpg");
     padding-top: 75px;
 }
 
@@ -71,6 +71,16 @@ main {
 .info-container {
     background: rgb(37,21,21);
     background: linear-gradient(0deg, rgba(25,15,15,1) 50%, rgba(25,15,15,0.5) 88%, rgba(25,15,15,0) 100%);
-    padding: 350px 15% 0;
+    padding: 350px 20% 0;
+}
+
+.info-container h1 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.info-container img {
+    display: block;
+    margin: auto;
 }
 
