@@ -4,6 +4,10 @@ body {
     font-size: 1.4rem;
 }
 
+main {
+    background: rgb(39, 1, 1) url("./Dark\ Stained\ Timber\ Cubic\ 3464\ x\ 4500\ mm.jpg");
+}
+
 #taglines p {
     margin: 32px;
     font-size: 1.8rem;
@@ -28,7 +32,7 @@ body {
 
 #home-tabs button {
     appearance: none;
-    transition: ease-in-out 0.15s;
+    transition: ease-in-out 0.1s;
     background-color: rgba(0, 0, 0, 0);
     color: aliceblue;
     border: 3px solid aliceblue;
@@ -48,5 +52,5 @@ body {
 }
 
 #home-tabs li:nth-of-type(2) {
-    transform: translateY(35px);
+    transform: translateY(40px);
 }
