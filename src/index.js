@@ -7,7 +7,39 @@ function test() {
   console.log("testing");
 }
 
-homeTab();
+function createElement(tag, parentElem, ...elemClasses) {
+  const newElement = document.createElement(tag);
+
+  for (const elemClass of elemClasses) {
+    newElement.classList.add(elemClass);
+  }
+
+  parentElem.appendChild(newElement);
+  return newElement;
+}
+
+function renderElement(elem, parentElem) {
+  const newElement = document.createElement(elem.tag);
+  if (elem.class) {
+    newElement.classList.add(elem.class);
+  }
+  if (elem.text) {
+    newElement.textContent = elem.text;
+  }
+  if (elem.children) {
+    elem.children.forEach((child) => {
+      renderElement(child, newElement);
+    });
+  }
+
+  parentElem.appendChild(newElement);
+}
+
+const contentContainer = document.getElementById("content");
+
+console.log(contentContainer);
+renderElement(homeTab, contentContainer);
+
 menuTab();
 contactTab();
 console.log("is it working for real no cap?");
