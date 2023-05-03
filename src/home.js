@@ -66,10 +66,69 @@ export default {
         },
       ],
     },
+    {
+      tag: "section",
+      class: "info-container",
+      children: [
+        {
+          tag: "a",
+          class: "scroll-down-btn",
+        },
+        {
+          tag: "h1",
+          text: "About",
+        },
+        {
+          tag: "p",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic.",
+        },
+        {
+          tag: "p",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic. dignissimos, ducimus repellat perspiciatis hic.",
+        },
+        {
+          tag: "p",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic.",
+        },
+        {
+          tag: "p",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic.",
+        },
+        {
+          tag: "ul",
+          children: [
+            {
+              tag: "li",
+              text: "lorem ipsum dolor",
+            },
+            {
+              tag: "li",
+              text: "lorem ipsum dolor",
+            },
+            {
+              tag: "li",
+              text: "lorem ipsum dolor",
+            },
+            {
+              tag: "li",
+              text: "lorem ipsum dolor",
+            },
+          ],
+        },
+        {
+          tag: "p",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic.",
+        },
+        {
+          tag: "p",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic.",
+        },
+      ],
+    },
   ],
 };
-
-/* {
+/*
+{
   tag: '',
   class: '',
   text: '',

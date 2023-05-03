@@ -37,7 +37,6 @@ function renderElement(elem, parentElem) {
 
 const contentContainer = document.getElementById("content");
 
-console.log(contentContainer);
 renderElement(homeTab, contentContainer);
 
 menuTab();

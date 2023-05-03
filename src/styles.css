@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-html, body, #content, main {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -13,7 +13,6 @@ body {
     background-color: rgb(39, 1, 1);
     color: aliceblue;
     font-size: 1.4rem;
-    height: 100%;
 }
 
 main {
@@ -70,8 +69,16 @@ main {
 
 .info-container {
     background: rgb(37,21,21);
-    background: linear-gradient(180deg, rgba(25,15,15,0) 0%, rgba(25,15,15,0.5) 75px, rgba(25,15,15,0.85) 400px);
-    padding: 350px 20% 0;
+    background: linear-gradient(180deg, rgba(25,15,15,0) 0%, rgba(25,15,15,0.5) 100px, rgba(25,15,15,0.8) 400px);
+    padding: 50px 22% 0;
+}
+
+.info-container .scroll-down-btn {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 0px auto 150px;
+    background-image: url("images/noun-chevron-2448448.svg");
 }
 
 .info-container h1 {
