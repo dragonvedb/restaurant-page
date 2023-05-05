@@ -1,6 +1,7 @@
 import homeTab from "./home.js";
 import menuTab from "./menu.js";
 import contactTab from "./contact.js";
+import header from "./header.js";
 import "./styles.css";
 
 function test() {
@@ -37,6 +38,7 @@ function renderElement(elem, parentElem) {
 
 const contentContainer = document.getElementById("content");
 
+renderElement(header, contentContainer);
 renderElement(homeTab, contentContainer);
 
 menuTab();
