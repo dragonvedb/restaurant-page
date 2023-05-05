@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-left: 50px;
-    height: 80px;
+    height: 75px;
     width: 100%;
     background-color: rgba(25,15,15,0.9);
 }
@@ -72,7 +72,7 @@ header .logo {
 
 main {
     background: rgb(39, 1, 1) url("images/Dark\ Stained\ Timber\ Cubic\ 3464\ x\ 4500\ mm.jpg");
-    padding-top: 175px;
+    padding-top: 120px;
 }
 
 .taglines p {
