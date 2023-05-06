@@ -77,6 +77,7 @@ export default {
           },
           {
             tag: "h1",
+            class: "info-header",
             text: "About",
           },
           {
@@ -128,7 +129,13 @@ export default {
       },
     ],
   },
-  wiring() {},
+  wiring() {
+    const infoHeader = document.querySelector(".info-header");
+    infoHeader.setAttribute("id", "info-header");
+
+    const scrollDownBtn = document.querySelector(".scroll-down-btn");
+    scrollDownBtn.setAttribute("href", "#info-header");
+  },
 };
 /*
 {

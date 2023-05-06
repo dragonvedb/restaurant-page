@@ -2,9 +2,10 @@ export default {
   tag: "header",
   children: [
     {
-      tag: "div",
+      tag: "button",
       class: "logo",
       text: "THE QUIET BOX",
+      children: [],
     },
     {
       tag: "nav",

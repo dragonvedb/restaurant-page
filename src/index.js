@@ -9,7 +9,7 @@ function test() {
   console.log("testing");
 }
 
-function createElement(tag, parentElem, ...elemClasses) {
+/* function createElement(tag, parentElem, ...elemClasses) {
   const newElement = document.createElement(tag);
 
   for (const elemClass of elemClasses) {
@@ -18,7 +18,7 @@ function createElement(tag, parentElem, ...elemClasses) {
 
   parentElem.appendChild(newElement);
   return newElement;
-}
+} */
 
 function renderElement(elem, parentElem) {
   const newElement = document.createElement(elem.tag);
@@ -38,19 +38,31 @@ function renderElement(elem, parentElem) {
 }
 
 const contentContainer = document.getElementById("content");
-function clear() {
-  contentContainer.innerHTML = "";
-}
 
-/* contentContainer.addEventListener("click", (e) => {
+contentContainer.addEventListener("click", (e) => {
   const target = e.target.classList;
-  if (target.contains("logo")) {
-    contentContainer.
+  if (e.target.tagName === "BUTTON") {
+    contentContainer.innerHTML = "";
+    if (target.contains("logo")) {
+      renderElement(homeTab.structure, contentContainer);
+      homeTab.wiring();
+    } else if (target.contains("mythos-btn")) {
+      renderElement(header, contentContainer);
+      renderElement(mythosTab.structure, contentContainer);
+    } else if (target.contains("menu-btn")) {
+      renderElement(header, contentContainer);
+      renderElement(menuTab.structure, contentContainer);
+    } else if (target.contains("contact-btn")) {
+      renderElement(header, contentContainer);
+      renderElement(contactTab.structure, contentContainer);
+    }
+    renderElement(footer, contentContainer);
   }
-}); */
+});
 
-/* renderElement(header, contentContainer); */
+renderElement(header, contentContainer);
 renderElement(homeTab.structure, contentContainer);
+homeTab.wiring();
 renderElement(footer, contentContainer);
 
 menuTab();

@@ -28,6 +28,12 @@ header {
 }
 
 header .logo {
+    appearance: none;
+    height: 100%;
+    padding: 0;
+    background-color: rgba(25,15,15,0.9);
+    color: aliceblue;
+    border: none;
     font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 0.3rem;
