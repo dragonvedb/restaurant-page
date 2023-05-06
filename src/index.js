@@ -38,9 +38,19 @@ function renderElement(elem, parentElem) {
 }
 
 const contentContainer = document.getElementById("content");
+function clear() {
+  contentContainer.innerHTML = "";
+}
 
-renderElement(header, contentContainer);
-renderElement(homeTab, contentContainer);
+/* contentContainer.addEventListener("click", (e) => {
+  const target = e.target.classList;
+  if (target.contains("logo")) {
+    contentContainer.
+  }
+}); */
+
+/* renderElement(header, contentContainer); */
+renderElement(homeTab.structure, contentContainer);
 renderElement(footer, contentContainer);
 
 menuTab();

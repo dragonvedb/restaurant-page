@@ -72,7 +72,7 @@ header .logo {
 
 main {
     background: rgb(39, 1, 1) url("images/Dark\ Stained\ Timber\ Cubic\ 3464\ x\ 4500\ mm.jpg");
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .taglines p {
@@ -153,6 +153,7 @@ footer {
     position: fixed;
     bottom: 0px;
     background-color: black;
+    color: aliceblue;
     height: 35px;
     width: 100%;
 }
