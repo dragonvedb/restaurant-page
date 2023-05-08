@@ -170,9 +170,22 @@ main h1 {
     padding: 35px;
 }
 
-.dish-card {
+.dish-card,
+.archive-card {
     padding: 0px 15px;
     background-color: rgba(25,15,15,0.8);
+}
+
+.archive-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 350px;
+    gap: 20px;
+    padding: 50px 15% 15px;
+}
+
+.archive-card:first-of-type {
+    grid-column: 1 / 3;
 }
 
 footer {

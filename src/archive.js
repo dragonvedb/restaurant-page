@@ -53,6 +53,10 @@ export default {
       title: "Lorem ipsum",
       lead: "Lorem ipsum dolor etu est tallum dolor o ipulum delle istum",
     },
+    {
+      title: "Lorem ipsum",
+      lead: "Lorem ipsum dolor etu est tallum dolor o ipulum delle istum",
+    },
   ],
   wiring() {
     function createArchiveCard(cardData) {
