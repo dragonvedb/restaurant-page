@@ -61,8 +61,9 @@ contentContainer.addEventListener("click", (e) => {
 });
 
 /* renderElement(header, contentContainer); */
-renderElement(homeTab.structure, contentContainer);
-homeTab.wiring();
+renderElement(menuTab.structure, contentContainer);
+
+/* homeTab.wiring(); */
 renderElement(footer, contentContainer);
 
 menuTab();
