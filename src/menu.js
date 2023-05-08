@@ -110,6 +110,7 @@ export default {
       sectionData.dishes.forEach((dishData) => {
         const dish = {
           tag: "article",
+          class: "dish-card",
           children: [
             {
               tag: "h3",

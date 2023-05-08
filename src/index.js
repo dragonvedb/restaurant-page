@@ -60,7 +60,7 @@ contentContainer.addEventListener("click", (e) => {
   }
 });
 
-/* renderElement(header, contentContainer); */
+renderElement(header, contentContainer);
 renderElement(menuTab.structure, contentContainer);
 menuTab.wiring();
 /* homeTab.wiring(); */
