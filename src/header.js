@@ -19,7 +19,7 @@ export default {
               children: [
                 {
                   tag: "button",
-                  class: "",
+                  class: "mythos-btn",
                   text: "MYTHOS",
                 },
               ],
@@ -29,7 +29,7 @@ export default {
               children: [
                 {
                   tag: "button",
-                  class: "",
+                  class: "menu-btn",
                   text: "MENU",
                 },
               ],
@@ -39,7 +39,7 @@ export default {
               children: [
                 {
                   tag: "button",
-                  class: "",
+                  class: "contact-btn",
                   text: "CONTACT",
                 },
               ],

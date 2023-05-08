@@ -1,3 +1,15 @@
-export default function contactTab() {
-  console.log("module hello???)");
-}
+export default {
+  structure: {
+    tag: "main",
+    class: "contact-tab",
+    children: [],
+  },
+  wiring() {},
+};
+/*
+{
+  tag: '',
+  class: '',
+  text: '',
+  children: []
+} */

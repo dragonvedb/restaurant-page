@@ -1,4 +1,5 @@
 import homeTab from "./home.js";
+import mythosTab from "./mythos.js";
 import menuTab from "./menu.js";
 import contactTab from "./contact.js";
 import header from "./header.js";
@@ -43,12 +44,14 @@ contentContainer.addEventListener("click", (e) => {
   const target = e.target.classList;
   if (e.target.tagName === "BUTTON") {
     contentContainer.innerHTML = "";
+    window.scrollTo(0, 0);
     if (target.contains("logo")) {
       renderElement(homeTab.structure, contentContainer);
       homeTab.wiring();
     } else if (target.contains("mythos-btn")) {
       renderElement(header, contentContainer);
       renderElement(mythosTab.structure, contentContainer);
+      mythosTab.wiring();
     } else if (target.contains("menu-btn")) {
       renderElement(header, contentContainer);
       renderElement(menuTab.structure, contentContainer);
@@ -56,15 +59,14 @@ contentContainer.addEventListener("click", (e) => {
     } else if (target.contains("contact-btn")) {
       renderElement(header, contentContainer);
       renderElement(contactTab.structure, contentContainer);
+      contactTab.wiring();
     }
     renderElement(footer, contentContainer);
   }
 });
 
-renderElement(header, contentContainer);
-renderElement(menuTab.structure, contentContainer);
-menuTab.wiring();
-/* homeTab.wiring(); */
+renderElement(homeTab.structure, contentContainer);
+homeTab.wiring();
 renderElement(footer, contentContainer);
 
 console.log("is it working for real no cap?");
