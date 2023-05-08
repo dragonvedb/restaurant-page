@@ -52,6 +52,7 @@ contentContainer.addEventListener("click", (e) => {
     } else if (target.contains("menu-btn")) {
       renderElement(header, contentContainer);
       renderElement(menuTab.structure, contentContainer);
+      menuTab.wiring();
     } else if (target.contains("contact-btn")) {
       renderElement(header, contentContainer);
       renderElement(contactTab.structure, contentContainer);
