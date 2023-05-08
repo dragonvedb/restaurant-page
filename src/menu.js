@@ -1,3 +1,5 @@
+import { renderElement } from "./index.js";
+
 export default {
   structure: {
     tag: "main",
@@ -36,7 +38,7 @@ export default {
       ],
     },
     {
-      section: "Lorem ipsum",
+      section: "Lorem ipso factum",
       dishes: [
         {
           name: "Lorem",
@@ -66,7 +68,7 @@ export default {
       ],
     },
     {
-      section: "Lorem ipsum",
+      section: "Lorrefem ipum",
       dishes: [
         {
           name: "Lorem",
@@ -86,7 +88,56 @@ export default {
       ],
     },
   ],
-  wiring() {},
+  wiring() {
+    function createSection(sectionData) {
+      const section = {
+        tag: "section",
+        class: "menu-section",
+        children: [
+          {
+            tag: "h2",
+            class: "menu-section-header",
+            text: sectionData.section,
+          },
+          {
+            tag: "div",
+            class: "menu-section-container",
+            children: [],
+          },
+        ],
+      };
+
+      sectionData.dishes.forEach((dishData) => {
+        const dish = {
+          tag: "article",
+          children: [
+            {
+              tag: "h3",
+              text: dishData.name,
+            },
+            {
+              tag: "p",
+              text: dishData.ingredients,
+            },
+            {
+              tag: "p",
+              text: dishData.price,
+            },
+          ],
+        };
+        section.children[1].children.push(dish);
+      });
+
+      return section;
+    }
+
+    this.menuData.forEach((sectionData) =>
+      renderElement(
+        createSection(sectionData),
+        document.querySelector(".menu-tab")
+      )
+    );
+  },
 };
 
 /*

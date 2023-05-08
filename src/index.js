@@ -20,7 +20,7 @@ function test() {
   return newElement;
 } */
 
-function renderElement(elem, parentElem) {
+export function renderElement(elem, parentElem) {
   const newElement = document.createElement(elem.tag);
   if (elem.class) {
     newElement.classList.add(elem.class);
@@ -62,10 +62,8 @@ contentContainer.addEventListener("click", (e) => {
 
 /* renderElement(header, contentContainer); */
 renderElement(menuTab.structure, contentContainer);
-
+menuTab.wiring();
 /* homeTab.wiring(); */
 renderElement(footer, contentContainer);
 
-menuTab();
-contactTab();
 console.log("is it working for real no cap?");
