@@ -2,7 +2,12 @@ export default {
   structure: {
     tag: "main",
     class: "contact-tab",
-    children: [],
+    children: [
+      {
+        tag: "h1",
+        text: "= CONTACT =",
+      },
+    ],
   },
   wiring() {},
 };

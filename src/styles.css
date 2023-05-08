@@ -41,7 +41,7 @@ header .logo {
 
 .header-tabs {
     height: 100%;
-    width: 35%;
+    width: 40%;
 }
 
 .header-tabs ul {
@@ -144,7 +144,7 @@ main {
     background-image: url("images/noun-chevron-2448448.svg");
 }
 
-.info-container h1 {
+main h1 {
     font-size: 1.8em;
     text-align: center;
 }
@@ -154,10 +154,6 @@ main {
     margin: 50px auto;
     outline: 7px double aliceblue;
     outline-offset: 3px;
-}
-
-.menu-tab h1 {
-    text-align: center;
 }
 
 .menu-section h2 {
@@ -176,7 +172,7 @@ main {
 
 .dish-card {
     padding: 0px 15px;
-    background-color: rgba(25,15,15,0.6);
+    background-color: rgba(25,15,15,0.8);
 }
 
 footer {

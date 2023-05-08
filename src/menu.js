@@ -89,7 +89,7 @@ export default {
     },
   ],
   wiring() {
-    function createSection(sectionData) {
+    function createMenuSection(sectionData) {
       const section = {
         tag: "section",
         class: "menu-section",
@@ -134,7 +134,7 @@ export default {
 
     this.menuData.forEach((sectionData) =>
       renderElement(
-        createSection(sectionData),
+        createMenuSection(sectionData),
         document.querySelector(".menu-tab")
       )
     );

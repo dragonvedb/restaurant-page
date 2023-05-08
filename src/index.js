@@ -1,5 +1,5 @@
 import homeTab from "./home.js";
-import mythosTab from "./mythos.js";
+import archiveTab from "./archive.js";
 import menuTab from "./menu.js";
 import contactTab from "./contact.js";
 import header from "./header.js";
@@ -48,10 +48,10 @@ contentContainer.addEventListener("click", (e) => {
     if (target.contains("logo")) {
       renderElement(homeTab.structure, contentContainer);
       homeTab.wiring();
-    } else if (target.contains("mythos-btn")) {
+    } else if (target.contains("archive-btn")) {
       renderElement(header, contentContainer);
-      renderElement(mythosTab.structure, contentContainer);
-      mythosTab.wiring();
+      renderElement(archiveTab.structure, contentContainer);
+      archiveTab.wiring();
     } else if (target.contains("menu-btn")) {
       renderElement(header, contentContainer);
       renderElement(menuTab.structure, contentContainer);

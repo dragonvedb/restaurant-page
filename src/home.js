@@ -38,16 +38,6 @@ export default {
                 children: [
                   {
                     tag: "button",
-                    class: "mythos-btn",
-                    text: "MYTHOS",
-                  },
-                ],
-              },
-              {
-                tag: "li",
-                children: [
-                  {
-                    tag: "button",
                     class: "menu-btn",
                     text: "MENU",
                   },
@@ -60,6 +50,16 @@ export default {
                     tag: "button",
                     class: "contact-btn",
                     text: "CONTACT",
+                  },
+                ],
+              },
+              {
+                tag: "li",
+                children: [
+                  {
+                    tag: "button",
+                    class: "archive-btn",
+                    text: "ARCHIVE",
                   },
                 ],
               },
