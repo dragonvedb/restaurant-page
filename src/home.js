@@ -78,7 +78,7 @@ export default {
           {
             tag: "h1",
             class: "info-header",
-            text: "About",
+            text: "= ABOUT =",
           },
           {
             tag: "p",

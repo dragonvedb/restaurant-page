@@ -7,7 +7,7 @@ export default {
     children: [
       {
         tag: "h1",
-        text: "MENU ",
+        text: "= MENU =",
       },
     ],
   },
