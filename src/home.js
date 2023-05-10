@@ -93,6 +93,10 @@ export default {
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic.",
           },
           {
+            tag: "img",
+            class: "interior-img",
+          },
+          {
             tag: "p",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, est accusantium. Unde maxime sunt optio maiores nostrum odit numquam ullam! Inventore doloremque minus obcaecati sapiente dignissimos, ducimus repellat perspiciatis hic.",
           },
@@ -135,6 +139,9 @@ export default {
 
     const scrollDownBtn = document.querySelector(".scroll-down-btn");
     scrollDownBtn.setAttribute("href", "#info-header");
+
+    const interiorImage = document.querySelector(".interior-img");
+    interiorImage.setAttribute("src", "/src/images/restaurant-interior.jpg");
   },
 };
 /*
