@@ -1,3 +1,5 @@
+import restaurantInterior from "./images/restaurant-interior.jpg";
+
 export default {
   structure: {
     tag: "main",
@@ -141,7 +143,8 @@ export default {
     scrollDownBtn.setAttribute("href", "#info-header");
 
     const interiorImage = document.querySelector(".interior-img");
-    interiorImage.setAttribute("src", "/src/images/restaurant-interior.jpg");
+    interiorImage.setAttribute("src", restaurantInterior);
+    interiorImage.setAttribute("alt", "Luxurious interior");
   },
 };
 /*

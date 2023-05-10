@@ -1,3 +1,4 @@
+import restaurantInterior from "./images/restaurant-interior.jpg";
 import homeTab from "./home.js";
 import archiveTab from "./archive.js";
 import menuTab from "./menu.js";

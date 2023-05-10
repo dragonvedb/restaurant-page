@@ -153,6 +153,7 @@ main h1 {
 .info-container img {
     display: block;
     margin: 50px auto;
+    width: 100%;
     outline: 7px double aliceblue;
     outline-offset: 3px;
 }
