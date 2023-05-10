@@ -13,17 +13,12 @@ export default {
         text: "",
         children: [
           {
-            tag: "form",
-            class: "reservation-form",
-            children: [],
-          },
-          {
             tag: "section",
             class: "contact-card",
             text: "",
             children: [
               {
-                tag: "h3",
+                tag: "h2",
                 text: "Location",
               },
               {
@@ -42,16 +37,16 @@ export default {
             text: "",
             children: [
               {
-                tag: "h3",
+                tag: "h2",
                 text: "Contact",
               },
               {
                 tag: "p",
-                text: "+7 *** ***-**-**",
+                text: "+7 *** ***-**-** (for reservatoins)",
               },
               {
                 tag: "p",
-                text: "+7 *** ***-**-**",
+                text: "+7 *** ***-**-** (for business inquiries)",
               },
               {
                 tag: "p",

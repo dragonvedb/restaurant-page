@@ -172,7 +172,6 @@ main h1 {
 
 .dish-card,
 .archive-card,
-.reservation-form,
 .contact-card {
     background-color: rgba(25,15,15,0.8);
 }
@@ -198,13 +197,14 @@ main h1 {
     width: 100%;
     height: 50%;
     background-color: black;
+    content: "*";
 }
 
 .dish-card h3,
 .dish-card p,
 .archive-card h2,
 .archive-card p,
-.contact-card h3,
+.contact-card h2,
 .contact-card p {
     margin: 5px 15px 0.5em;
 }
@@ -212,14 +212,10 @@ main h1 {
 .contact-container {
     height: 75vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-auto-rows: 250px;
     gap: 30px;
-    padding: 50px 15% 15px;
-}
-
-.reservation-form {
-    grid-area: 1 / 1 / 3 / 3;
+    padding: 50px 25% 15px;
 }
 
 footer {
