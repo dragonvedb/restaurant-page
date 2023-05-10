@@ -62,7 +62,7 @@ header .logo {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(25,15,15,0.9);
+    background-color: rgba(25,15,15,0);
     color: aliceblue;
     border: none;
     font-size: 1.5rem;
@@ -171,8 +171,9 @@ main h1 {
 }
 
 .dish-card,
-.archive-card {
-    padding: 0px 15px;
+.archive-card,
+.reservation-form,
+.contact-card {
     background-color: rgba(25,15,15,0.8);
 }
 
@@ -180,12 +181,45 @@ main h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 350px;
-    gap: 20px;
+    gap: 30px;
     padding: 50px 15% 15px;
 }
 
 .archive-card:first-of-type {
     grid-column: 1 / 3;
+}
+
+.archive-card:hover {
+    background-color: rgba(35, 25, 25, 0.8);
+}
+
+.dish-placeholder,
+.archive-placeholder {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.dish-card h3,
+.dish-card p,
+.archive-card h2,
+.archive-card p,
+.contact-card h3,
+.contact-card p {
+    margin: 5px 15px 0.5em;
+}
+
+.contact-container {
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    gap: 30px;
+    padding: 50px 15% 15px;
+}
+
+.reservation-form {
+    grid-area: 1 / 1 / 3 / 3;
 }
 
 footer {

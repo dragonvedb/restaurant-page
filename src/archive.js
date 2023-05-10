@@ -65,6 +65,10 @@ export default {
         class: "archive-card",
         children: [
           {
+            tag: "div",
+            class: "archive-placeholder",
+          },
+          {
             tag: "h2",
             text: cardData.title,
           },

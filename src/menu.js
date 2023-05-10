@@ -113,6 +113,10 @@ export default {
           class: "dish-card",
           children: [
             {
+              tag: "div",
+              class: "dish-placeholder",
+            },
+            {
               tag: "h3",
               text: dishData.name,
             },
