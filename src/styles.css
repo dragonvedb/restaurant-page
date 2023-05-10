@@ -141,7 +141,7 @@ main {
     display: block;
     height: 125px;
     width: 125px;
-    margin: 0px auto 175px;
+    margin: 0px auto 350px;
     background-image: url("images/noun-chevron-2448448.svg");
 }
 
@@ -242,6 +242,7 @@ main h1 {
     background-color: rgba(0, 0, 0, 0);
     color: aliceblue;
     border: 3px solid aliceblue;
+    text-align: center;
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
     margin: auto;

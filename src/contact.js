@@ -62,7 +62,7 @@ export default {
         text: "Do not delay. We are waiting for you, friend.",
       },
       {
-        tag: "button",
+        tag: "div",
         class: "reservation-btn",
         text: "MAKE A RESERVATION",
       },

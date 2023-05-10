@@ -3,7 +3,7 @@ export default {
   children: [
     {
       tag: "p",
-      text: "Made by Daniel Bronsky || Chevron graphics by Travis Avery of The Noun Project",
+      text: "Made by Daniel Bronsky || Chevron graphics by Travis Avery of The Noun Project || Photo by Sarah Götze on Unsplash",
     },
   ],
 };
