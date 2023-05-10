@@ -197,7 +197,11 @@ main h1 {
     width: 100%;
     height: 50%;
     background-color: black;
-    content: "*";
+}
+
+.dish-placeholder::after,
+.archive-placeholder::after {
+    content: "placeholder";
 }
 
 .dish-card h3,
