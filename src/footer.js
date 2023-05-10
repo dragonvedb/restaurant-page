@@ -1,6 +1,11 @@
 export default {
   tag: "footer",
-  children: [],
+  children: [
+    {
+      tag: "p",
+      text: "Made by Daniel Bronsky || Chevron graphics by Travis Avery of The Noun Project",
+    },
+  ],
 };
 
 /*

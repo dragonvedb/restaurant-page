@@ -13,6 +13,7 @@ body {
     background-color: rgb(39, 1, 1);
     color: aliceblue;
     font-size: 1.4rem;
+    font-family: Georgia, serif;
 }
 
 header {
@@ -213,13 +214,48 @@ main h1 {
     margin: 5px 15px 0.5em;
 }
 
+.contact-tab {
+    min-height: 100vh;
+}
+
 .contact-container {
-    height: 75vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 250px;
     gap: 30px;
-    padding: 50px 25% 15px;
+    padding: 50px 20% 15px;
+}
+
+.cta {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.reservation-btn {
+    display: block;
+    appearance: none;
+    transition: ease-in-out 0.1s;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    margin: auto;
+    padding: 14px;
+    width: 450px;
+}
+
+.reservation-btn:hover {
+    appearance: none;
+    background-color: aliceblue;
+    color: rgb(39, 1, 1);
+    font-weight: bold;
+    border: 3px solid aliceblue;
+    outline: 3px solid aliceblue;
+    outline-offset: 3px;
 }
 
 footer {
@@ -229,4 +265,11 @@ footer {
     color: aliceblue;
     height: 35px;
     width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+    font-size: 1.1rem;
+    text-align: center;
 }

@@ -56,6 +56,16 @@ export default {
           },
         ],
       },
+      {
+        tag: "p",
+        class: "cta",
+        text: "Do not delay. We are waiting for you, friend.",
+      },
+      {
+        tag: "button",
+        class: "reservation-btn",
+        text: "MAKE A RESERVATION",
+      },
     ],
   },
   wiring() {},
