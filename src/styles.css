@@ -147,8 +147,13 @@ main {
     display: block;
     height: 125px;
     width: 125px;
-    margin: 0px auto 350px;
+    margin: 0px auto 300px;
     background-image: url("images/noun-chevron-2448448.svg");
+}
+
+.info-container h1 {
+    display: block;
+    padding-top: 50px;
 }
 
 main h1 {
