@@ -126,6 +126,7 @@ export default {
             },
             {
               tag: "p",
+              class: "price",
               text: dishData.price,
             },
           ],

@@ -1,4 +1,3 @@
-import restaurantInterior from "./images/restaurant-interior.jpg";
 import homeTab from "./home.js";
 import archiveTab from "./archive.js";
 import menuTab from "./menu.js";
@@ -6,21 +5,6 @@ import contactTab from "./contact.js";
 import header from "./header.js";
 import footer from "./footer.js";
 import "./styles.css";
-
-function test() {
-  console.log("testing");
-}
-
-/* function createElement(tag, parentElem, ...elemClasses) {
-  const newElement = document.createElement(tag);
-
-  for (const elemClass of elemClasses) {
-    newElement.classList.add(elemClass);
-  }
-
-  parentElem.appendChild(newElement);
-  return newElement;
-} */
 
 export function renderElement(elem, parentElem) {
   const newElement = document.createElement(elem.tag);

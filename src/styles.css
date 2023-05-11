@@ -215,6 +215,12 @@ main h1 {
     margin: 5px 15px 0.5em;
 }
 
+.price {
+    text-align: end;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
 .contact-tab {
     min-height: 100vh;
 }
