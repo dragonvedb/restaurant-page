@@ -13,7 +13,13 @@ body {
     background-color: rgb(39, 1, 1);
     color: aliceblue;
     font-size: 1.4rem;
-    font-family: Georgia, serif;
+    font-family: 'Georgia', cursive;
+}
+
+h1, h2, h3, .logo, 
+button, .reservation-btn,
+.taglines, .cta {
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 header {
@@ -66,7 +72,7 @@ header .logo {
     background-color: rgba(25,15,15,0);
     color: aliceblue;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 0.2rem;
 }
 
@@ -111,7 +117,7 @@ main {
     background-color: rgba(0, 0, 0, 0);
     color: aliceblue;
     border: 3px solid aliceblue;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     letter-spacing: 0.2rem;
     padding: 14px;
     width: 275px;
@@ -249,7 +255,7 @@ main h1 {
     color: aliceblue;
     border: 3px solid aliceblue;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     letter-spacing: 0.2rem;
     margin: auto;
     padding: 14px;
